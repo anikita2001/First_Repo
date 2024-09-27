@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Responsive Job Portal</title>
+</head>
+
+    </style>
+<body>
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">JOBACT</a></h2>
+        <div class="navbar-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="jobs.html">Jobs</a>
+            <!-- <a href="#Companies">Companies</a> -->
+            <!-- <a href="#Testimonial">Testimonial</a> -->
+            <a href="contact.html">Contact</a>
+            <a href="Register.h">Register</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    
+    <!-- header -->
+    <header>
+        <h1 class="header-title">
+            FIND YOUR <br> <span>PERFECT JOB</span> <br> EASILY
+        </h1>
+    </header>
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="job tittle or keywords">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- filter box -->
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" id="job-level" name="job-level">
+                <option>Job-level</option>
+                <option>Entry</option>
+                <option>Mid-Senior</option>
+                <option>Director</option>
+            </select>
+            <select class="filter-select" id="job-function" name="job-function">
+                <option>Job Function</option>
+                <option>IT</option>
+                <option>Management</option>
+                <option>Education</option>
+            </select>
+            <select class="filter-select" id="employment" name="employment">
+                <option>Employment Type</option>
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full Time</option>
+            </select>
+            <select class="filter-select" id="location" name="location">
+                <option>Locations</option>
+                <option>Remote</option>
+                <option>Abroad</option>
+                <option>US</option>
+            </select>
+            <select class="filter-select" id="Education" name="Education">
+                <option>Education</option>
+                <option>High School</option>
+                <option>Bachelor's degree</option>
+                <option>Master's degree</option>
+            </select>    
+        </div>
+    </div>
+
+
+    <!-- job Listing -->
+    
+    <section class="job-list" id="jobs">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="20.jpg">
+                <div class="job-detail">
+                    <h4>Tesla</h4>
+                    <h3>Python Developer</h3>
+                    <p>Full Time Opportunity For University Graduates.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">Python</a>
+                <a class="label-b" href="#">DBMS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="21.jpg">
+                <div class="job-detail">
+                    <h4>Ebay</h4>
+                    <h3>Frontend Development</h3>
+                    <p>Full Time Opportunity For University Graduates.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="9.jpg">
+                <div class="job-detail">
+                    <h4>Microsoft</h4>
+                    <h3>Software Engineering</h3>
+                    <p>Internship Opportunity For Currently Graduates</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">JAVA</a>
+                <a class="label-b" href="#">C++</a>
+                <a class="label-c" href="#">DSA</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="23.jpg">
+                <div class="job-detail">
+                    <h4>Youtube</h4>
+                    <h3>Web Developer</h3>
+                    <p>Part Time Opportunity For University Graduates.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted an hour ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="24.jpg">
+                <div class="job-detail">
+                    <h4>Amazon</h4>
+                    <h3>Data Scientist</h3>
+                    <p>Full Time Opportunity For University Graduates.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">PYTHON</a>
+                <a class="label-b" href="#">C++</a>
+                <a class="label-c" href="#">DATA SCIENCE</a>
+            </div>
+            <div class="job-posted">
+                Posted an hour ago
+            </div>
+        </div>
+        <!-- <button class="job-more">More Listing</button> -->
+        <div class="job-more">
+            <a href="#">More List</a>
+        </div>
+    </section>
+
+    <!-- join -->
+    <section class="join">
+        <div class="join-detail">
+            <h1 class="section-title">LETS START YOUR NEW JOB WITH US</h1>
+            <!--<p>Find Your Dream Job Here Easily</p>-->
+        </div>
+        <div class="join-button">
+            <a href="jobs.html">Join Now</a>
+        </div>
+        <!-- <button class="join-button">Join Now</button> -->
+    </section>
+
+    <!-- featured company -->
+    <section class="featured-image" id="companies">
+        <h1 class="section-tittle">Featured Companies</h1>
+        <div class="featured-wrapper" >
+            <div class="featured-card">
+                <img class="featured-image" src="21.jpg">
+                <p>Ebay</p>
+                <!-- <button class="featured-button">View 2 jobs</button> -->
+                <div class="featured-button">
+                    <a href="#">View Job</a>
+                </div>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="23.jpg">
+                <p>Youtube</p>
+                <!-- <button class="featured-button">View 1 jobs</button> -->
+                <div class="featured-button">
+                    <a href="#">View Job</a>
+                </div>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="9.jpg">
+                <p>Microsoft</p>
+                <!-- <button class="featured-button">View 3 jobs</button> -->
+                <div class="featured-button">
+                    <a href="#">View Job</a>
+                </div>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="20.jpg">
+                <p>Tesla</p>
+                <!-- <button class="featured-button">View 2 jobs</button> -->
+                <div class="featured-button">
+                    <a href="#">View Job</a>
+                </div>
+            </div>
+            <!-- <br> -->
+            <div class="featured-card">
+                <img class="featured-image" src="27.jpg">
+                <p>Google</p>
+                <!-- <button class="featured-button">View 2 jobs</button> -->
+                <div class="featured-button">
+                    <a href="#">View Job</a>
+                </div>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="28.jpg">
+                <p>Facebook</p>
+                <!-- <button class="featured-button">View 4 jobs</button> -->
+                <div class="featured-button">
+                    <a href="#">View Job</a>
+                </div>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="29.jpg">
+                <p>Apple</p>
+                <!-- <button class="featured-button">View 1 jobs</button> -->
+                <div class="featured-button">
+                    <a href="#">View Job</a>
+                </div>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="24.jpg">
+                <p>Amazon</p>
+                <!-- <button class="featured-button">View 2 jobs</button> -->
+                <div class="featured-button">
+                    <a href="#">View job</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<section>
+    <div class="feed">
+        <h2>Write a Review</h2>
+        <div class="feed_form">
+            <form name="submit-googlesheet" method="post">
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="email" name="Email" placeholder="Email Id"><br>
+                <input type="number" name="Number" placeholder="Contact Number"><br>
+                <textarea rows="5" cols="7" name="Review" placeholder="Write your review"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+    
+    <footer>
+        <div class="footer_logo">
+        <h2 ><a href="">JOBACT</a></h2>
+        </div>
+        <div class="pages">
+            <h3>Pages</h3>
+            <a  href="index.html">Home</a>|
+            <a href="about.html">About</a>|
+            <a href="jobs.html">Jobs</a>|
+            <a href="contact.html">Contact</a>|
+            <a href="Register.html">Register</a>|
+        </div>
+        <div class="doc">
+            <h3>Documents</h3>
+            <a href=" ">Privacy Policy</a>|
+            <a href="70.pdf.pdf">Terms of Use</a>|
+            <a href=" ">Refund Policy</a>|
+        </div>
+        <div class="social">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/tushar.pawade.562" target="_black"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/tushar___49/" target="_black"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://in.linkedin.com/in/tushar-pawade-63a569234?trk=people-guest_people_search-card" target="_black"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/TusharPawade7 " target="_black"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <div class="contacts" style="padding-bottom: 30px;">
+            <h3>Contacts Us</h3>
+            <a href="tel: +919655678587 "><i class="fa fa-mobile" aria-hidden="true"></i></a>
+            <a href="mailto: tpawades9@gmail.com "><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://api.WhatsApp.com/send?phone=+919655678587" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
+        <hr>
+        <div class = "copy">
+        <p>Copyright &copy; 2022 JOBACT All rights reserved</p>
+       </div>
+    </footer>
+
+    
+    </body>
+</html>
